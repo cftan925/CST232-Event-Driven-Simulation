@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FixedMemoryController">
+   <top>
+      <Label text="Fixed Partition" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS" size="26.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="29.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Choose Memory Blocks: " textAlignment="CENTER">
+               <font>
+                  <Font name="Consolas" size="22.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#goFixedMemory1" prefWidth="250.0" text="3 Memory Blocks">
+               <font>
+                  <Font name="Comic Sans MS" size="22.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goFixedMemory2" prefWidth="250.0" text="5 Memory Blocks">
+               <font>
+                  <Font name="Comic Sans MS" size="22.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goFixedMemory3" prefWidth="250.0" text="7 Memory Blocks">
+               <font>
+                  <Font name="Comic Sans MS" size="22.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#goFixedMemory4" prefWidth="250.0" text="10 Memory Blocks">
+               <font>
+                  <Font name="Comic Sans MS" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
